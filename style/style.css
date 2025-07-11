@@ -37,20 +37,15 @@ nav {
     justify-content: center;
     align-items: center;
     color: #FFF;
-    font-family: Raleway;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 150%;
     border: none;
 }
 
 .primary-btn:hover {
     background-color: rgb(46, 167, 233);
     color: #080101;
-    font-family: Raleway;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
     padding: 12px 36px;
     cursor: pointer;
@@ -61,14 +56,11 @@ nav {
     font-family: Inter;
     font-size: 34px;
     font-weight: 900;
-    line-height: 150%;
 }
 
 /* Banner section start */
 .banner {
     margin-top: 158px;
-
-
 }
 
 .banner-content {
@@ -90,7 +82,6 @@ nav {
     font-weight: 700;
     line-height: normal;
     max-width: 905px;
-
 }
 
 /* Banner section end*/
@@ -107,7 +98,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .action-section img {
@@ -121,7 +111,6 @@ main {
 .action-section-left p {
     color: rgba(37, 36, 50, 0.50);
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     margin: 23px 0px;
@@ -130,14 +119,12 @@ main {
 .action-section-left h1 {
     color: #252432;
     font-size: 42px;
-
     font-weight: 700;
 }
 
 /* productive-Users-start */
 .productive-Users {
     margin: 116px 0px 137px 0px;
-
     border-radius: 24px;
     background: rgba(78, 71, 255, 0.10);
     display: flex;
@@ -153,7 +140,6 @@ main {
     font-size: 38px;
     font-weight: 700;
     margin-bottom: 40px;
-
 }
 
 .productive-Users-stat {
@@ -165,10 +151,7 @@ main {
     color: #4E47FF;
     font-family: Inter;
     font-size: 80px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-
 }
 
 .productive-Users-stat p {
@@ -176,9 +159,7 @@ main {
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
-
 }
 
 /* feedback section */
@@ -186,9 +167,7 @@ main {
     color: #252432;
     text-align: center;
     font-size: 42px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .cards-container {
@@ -205,32 +184,25 @@ main {
     text-align: start;
 }
 
-
 .card-title {
     color: black;
     font-size: 22px;
-    font-style: normal;
     font-weight: 700px;
-    line-height: 120%;
     margin: 24px 0;
-
 }
 
 .card p {
-    color: black;
+    color: rgb(29, 28, 28);
     font-size: 16px;
-    font-style: normal;
     font-weight: 400px;
     line-height: 140%;
     margin-bottom: 24px;
 }
 
 .card-name {
-    color: rgb(148, 144, 144);
+    color: rgb(72, 70, 70);
     font-size: 15px;
-    font-style: normal;
     font-weight: 400px;
-    line-height: 140%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -239,14 +211,16 @@ main {
 .card-name p {
     color: rgb(139, 130, 130);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500px;
-    line-height: 140%;
 }
 
 .card-footer {
     display: flex;
     gap: 6px;
+}
+
+.card-footer img {
+    border-radius: 25%;
 }
 
 /* read-to-focus-better(optional) */
@@ -261,7 +235,6 @@ main {
 .read-to-focus-better h1 {
     color: #000;
     font-size: 50px;
-    font-style: normal;
     font-weight: 700;
 }
 
@@ -294,7 +267,6 @@ main {
 .column-left h1 {
     color: #000;
     font-size: 97px;
-    font-style: normal;
     font-weight: 700;
     line-height: 120%;
 }
@@ -311,7 +283,6 @@ main {
     color: #000;
     font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
     display: inline-block;
     margin: 10px
@@ -327,6 +298,8 @@ textarea {
     border: 1px solid #D6DDED;
     background: #FFF;
 }
+
+
 
 .column-right input[type="button"] {
     width: 100%;
@@ -356,7 +329,6 @@ footer {
     text-align: center;
     font-family: Inter;
     font-size: 100px;
-    font-style: normal;
     font-weight: 900;
 }
 
@@ -380,7 +352,6 @@ footer {
     color: #8987A1;
     font-family: Inter;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
 
 }
