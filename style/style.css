@@ -189,6 +189,7 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 137px;
 }
 
 .cards-container {
@@ -248,6 +249,54 @@ main {
     display: flex;
     gap: 6px;
 }
+
+/* get in touch section */
+
+.get-in-touch-section {
+    display: flex;
+    align-items: center;
+    gap: 115px;
+}
+
+.column-left h1 {
+    color: #000;
+    font-size: 97px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.column-left {
+    width: 50%;
+}
+
+.column-right {
+    width: 50%;
+}
+
+.column-right label {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    display: inline-block;
+    margin: 10px
+}
+
+.column-right input[type="email"],
+input[type="text"],
+textarea {
+    width: 87%;
+    margin-bottom: 19px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+}
+
+
+
 
 
 /* main section end */
