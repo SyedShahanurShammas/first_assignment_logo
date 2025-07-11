@@ -189,7 +189,6 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 137px;
 }
 
 .cards-container {
@@ -248,6 +247,40 @@ main {
 .card-footer {
     display: flex;
     gap: 6px;
+}
+
+/* read-to-focus-better(optional) */
+.read-to-focus-better {
+    margin: 137px 0px 92px 0px;
+    text-align: center;
+    border-radius: 14px;
+    background: #FFF;
+    padding: 71px 0px;
+}
+
+.read-to-focus-better h1 {
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.read-to-focus-better p {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.read-to-focus-btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.read-to-focus-better img {
+    border-radius: 48px;
+    height: 364.773px;
 }
 
 /* get in touch section */
@@ -310,6 +343,7 @@ footer {
     padding: 104px 0px;
     border-top: 1px solid rgba(0, 0, 0, 0.10);
     background: #FFF;
+    margin-top: 71px;
 }
 
 .footer-content {
